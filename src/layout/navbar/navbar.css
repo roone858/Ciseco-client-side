@@ -1,0 +1,19 @@
+.navbar a.nav-link {
+  color: #334155;
+  font-size: 15px;
+  padding: 10px 16px !important;
+  font-weight: 500 !important;
+  
+  transition: 0.1s;
+  border-radius: 2rem;
+}
+
+
+.navbar-toggler {
+  border: 0px solid black !important;
+}
+
+.navbar a.nav-link:hover {
+     background-color: rgb(241 245 249);
+}
+

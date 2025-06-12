@@ -1,0 +1,8 @@
+.discover-card {
+  overflow: hidden;
+}
+
+.discover-card:hover {
+  background-color: rgba(206, 206, 206, 0.135) !important;
+  transition: 0.2s;
+}

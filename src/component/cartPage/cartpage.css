@@ -1,0 +1,44 @@
+@media screen and (max-width: 767px) {
+
+    /* .container{
+        display: flex;
+        flex-direction: column;
+        
+        
+        
+    } */
+    .row{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .home{     
+        display: flex;
+        flex-direction: column;
+      
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+   .second:not(h3 , .front){
+    
+    margin: 0 !important;
+    padding: 0 !important;
+    
+   }
+   .front{
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100%;
+    
+   }
+   .front-frist{
+   width: 75% !important;
+   }
+    .front-second{
+        width: 25% !important;
+    }
+  
+}

@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+.btn-dark {
+  background-color: #0f172a;
+}
+.carousel-indicators .active {
+  background-color: black;
+}
+
+/* .carousel-control-prev-icon {
+     background-color: black;
+  border: solid 1px black;
+  border-radius: 50%;
+  padding:1.5rem;
+transition: 0.3s;
+background-size: 50%;
+opacity: 0.3;
+}
+ */
+.swiper-wrapper .swiper-slide:not(.swiper-slide-active) .text {
+  transform: translateX(-100px);
+  opacity: 0.4;
+  transition: 0.8s;
+}
+
+.swiper-slide.swiper-slide-active .text {
+  transform: translateX(0px);
+  opacity: 1;
+
+  transition: 1s;
+}
+
+.swiper-wrapper .swiper-slide:not(.swiper-slide-active) .image-container {
+  transform: translateY(20px);
+  opacity: 0.4;
+  transition: 0.8s;
+}
+
+.swiper-slide.swiper-slide-active .image-container {
+  transform: translateY(0px);
+  opacity: 1;
+
+  transition: 0.8s;
+}
+.navbar {
+  background-color: #fff !important;
+  position: sticky !important;
+  top: 0;
+  z-index: 555;
+}

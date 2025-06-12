@@ -1,0 +1,6 @@
+.group:hover .assets{
+
+     visibility: visible !important;
+     opacity: 1 !important;
+     bottom: 1rem !important;
+}
